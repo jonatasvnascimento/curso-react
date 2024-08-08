@@ -1,7 +1,7 @@
 import React from 'react';
 import Alunos from "../../data/alunos";
 
-export default (props) => {
+export default () => {
 
     const alunosLinha = Alunos.map((aluno, index) => {
         return (
